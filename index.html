@@ -13,6 +13,47 @@
             <span>Avis des lecteurs</span>
         </div>
     </header>
-    
+    <main>
+        <!--Espace recette-->
+        <section>
+            <h2>Pâtes crémeuses au citron</h2>
+            <span>Laissez votre avis sur cette recette grâce au formulaire ci-contre.</span>
+        </section>
+        <section>
+            <h3>Ingrédients</h3>
+            <ul>
+                <li>Pâtes</li>
+                <li>Crème</li>
+                <li>Citron</li>
+                <li>Parmesan</li>
+            </ul>
+            <h3>Préparation</h3>
+            <ol>
+                <li>Cuire les pâtes.</li>
+                <li>Mélanger la crème et le citron.</li>
+                <li>Ajouter le parmesan.</li>
+            </ol>    
+        </section>
+        <!--Espace commentaire-->
+        <section>
+            <h3>Laisser un commentaire</h3>
+            <form action="post">
+                <div>
+                    <label for="name">Votre nom</label>
+                    <input type="text" name="name" id="name" required minlength="2" placeholder="Ex : Léa">
+                </div>
+                <span>Minimum 2 caractères</span>
+                <div>
+                    <label for="comment">Votre commentaire</label>
+                    <input type="text" name="comment" id="comment" required minlength="10" placeholder="Votre avis sur la recette ...">
+                </div>
+                <span>Minimum 10 caractères</span>
+                <button class="button" type="button" value="Publier"></button>
+            </form>
+            <div>
+                <h3>Commentaires</h3>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
