@@ -1,0 +1,98 @@
+body {
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+    font-size: 14px;
+    color: #111827;
+    background-color: #f6f7fb;
+    max-width: 1050px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+
+main {
+    display: flex;
+    gap: 15px;
+}
+
+h1 {
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+h2, h3 {
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+span {
+    color: #6b7280;
+}
+
+label{
+    font-weight: bold;
+    display: block;
+}
+
+section {
+    background-color: #ffffff ;
+    border: 1px solid #e5e7eb;
+    border-radius: 16px;
+    padding: 16px;
+}
+
+#first-column {
+    flex: 1.6;
+}
+
+#second-column {
+    flex: 1;
+}
+
+#recipe {
+    background-color: #fafafa;
+    margin: 16px 0;
+    border:  1px solid #e5e7eb;
+    border-radius:  12px;
+    padding: 14px;
+} 
+
+input {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px 14px;
+    max-width: 100% ;
+    min-height: 120px ;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+button {
+    width: 100%;
+    padding: 10px 14px;
+    border: none;
+    border-radius: 12px;
+    background-color: #2563eb;
+    color: white;
+    cursor: pointer;
+}
+
+footer{
+    text-align: center;
+}
+
+@media (max-width: 900px) {
+    main {
+        flex-direction: column;
+    }
+}
